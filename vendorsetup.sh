@@ -1,0 +1,2 @@
+add_lunch_combo omni_hltekdi-eng
+add_lunch_combo omni_hltekdi-userdebug
