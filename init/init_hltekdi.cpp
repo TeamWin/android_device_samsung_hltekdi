@@ -49,11 +49,10 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 		/* hltedcm */
 		property_set("ro.product.model", "SC-01F");
 		property_set("ro.product.name", "hltedcm");
-		property_set("ro.product.device", "hltedcm");
 	} else {
 		/* all other variants become hltekdi */
 		property_set("ro.product.model", "SCL22");
 		property_set("ro.product.name", "hltekdi");
-		property_set("ro.product.device", "hltekdi");
 	}
+	property_set("ro.product.device", "hlte");
 }
